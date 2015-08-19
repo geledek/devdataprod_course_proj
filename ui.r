@@ -1,7 +1,7 @@
 library(shiny)
 
 # Define UI for application that draws a histogram
-shinyUI(fluidPage(
+shinyUI(fluidPage(ge
   
   # Application title
   titlePanel("Iris Flower Data Exploratory Analytics"),

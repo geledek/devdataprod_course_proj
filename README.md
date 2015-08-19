@@ -1,1 +1,2 @@
-# devdataprod_course_proj
+# Developing Data Products Course Project
+

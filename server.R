@@ -19,7 +19,7 @@ shinyServer(function(input, output) {
 #     # draw the histogram with the specified number of bins
 #     hist(x, breaks = bins, col = 'darkgray', border = 'white')
     binNum = input$bins
-    data <- read.csv("~/Dropbox/Study/CE7429 Computational Intelligence/assignment_1/iris_dataset.csv", header=TRUE, sep="\t")
+    data <- read.csv("data/iris_dataset.csv", header=TRUE, sep="\t")
     colnames(data)[5] <- "class"
     data_long <- melt(data, id="class")
     
